@@ -1,53 +1,52 @@
 import Carousel from "react-bootstrap/Carousel";
 import grumpygary from "./../../assets/grumpygary.png";
+import firstwefeast from "./../../assets/firstwefeast.png";
+import melbournehotsauce from "./../../assets/melbournehotsauce.png";
 import styles from "./Carousel.module.scss";
 
 const CarouselFunc = () => {
     return (
         <div>
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://cdn.shopify.com/s/files/1/2086/9287/files/hero-hot-ones-18-large_2000x.jpg?v=1653007200"
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>
-                            Nulla vitae elit libero, a pharetra augue mollis
-                            interdum.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
+            <Carousel className={styles.Carousel}>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={grumpygary}
-                        alt="Second slide"
+                        alt="The Grumpy Gary Hot Sauce Selection"
                     />
-
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
+                        <h3>The Grumpy Garys Selection</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
+                            100% Australian Hot Sauces from a family owned
+                            manufacturer
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Thirdslide&bg=20232a"
-                        alt="Third slide"
+                        src={firstwefeast}
+                        alt="The Hot Ones Selection from First We Feast"
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h3>The Hot Ones Selection</h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl
-                            consectetur.
+                            Sauces from the Hot Ones interviews on First We
+                            Feast
                         </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={melbournehotsauce}
+                        alt="Melbourne made Hot Sauce from Melbourne Hot Sauce"
+                    />
+
+                    <Carousel.Caption>
+                        <h3>Melbourne Hot Sauce</h3>
+                        <p>Experience the best of Melbourne made Hot Sauces</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

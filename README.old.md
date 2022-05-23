@@ -14,6 +14,7 @@ name
 image url
 favourited or not (boolean)
 All data should be stored in Firestore and fetched by the frontend, there should be NO static product data in the react application.
+
 Bonus
 Using Firestore and react, create a cart system. Create a cart page in your react app Add logic to prevent users from adding items to cart that are no longer in stock. You will have to check the current cart and the product quantity Cart page should have the following:
 List of products in cart
