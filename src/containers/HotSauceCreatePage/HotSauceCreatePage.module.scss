@@ -1,0 +1,14 @@
+.HotSauceCreatePage {
+    &_Form {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: column;
+        padding: 100px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
